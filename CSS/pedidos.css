@@ -1,0 +1,33 @@
+body{
+	background: aqua;
+	color: white;
+	display: flex;
+	align-content: center;
+	font-family: georgia;
+}
+.form {
+	background: black;
+	width: 380px;
+	height: auto;
+	padding: 5px;
+	border-left: 500px;
+}
+
+.main{
+	padding-left: 35%;
+	padding-top: 50px;
+} 
+ 
+
+.form input {
+	padding:5px;
+	margin: 20px;
+}
+
+.distrito, .mansaje{
+	padding: 5px;
+	margin: 20px;
+}
+.mensaje{
+	max-width: 360px;
+}

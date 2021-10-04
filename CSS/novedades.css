@@ -1,0 +1,186 @@
+body {
+	background: #1EE9FE;
+	font-family: georgia;
+	margin: 0;
+}
+body:hover{
+
+}
+
+.header{
+	background: black;
+	color: white;
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+.nav ul .novedades{
+	background: #bebebe;
+	border-radius: 50px;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo{
+width:74px;
+height:auto;
+border-radius: 100%;
+}
+.menu-icon{
+	display: none;
+}
+
+.nav li a{
+	text-decoration: none;
+ 	color: white;
+ 	display: block;
+ 	padding: 10px 20px ;
+ 	border-radius: 50px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	display: inline-block;
+}
+
+.nav ul li a:hover{
+background: #bebebe;
+}
+
+
+ 
+
+main{
+	padding-top: 100px;
+}
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.titulo{
+	background:#1EE9FE;
+	font-size: 36px;
+}
+
+.productor{
+	display: flex;
+	align-items: center;
+}
+.javier {
+	width: 292px;
+	height: 299px;
+}
+.info{
+	background: #bebebe;
+	font-size: 13px;
+	padding: 60px 50px;
+}
+
+h2{
+	background:#383737db;
+	color: #ffffff;
+	font-size: 32px;
+}
+.preparaciondetierra{
+	display: flex;
+	align-items: center;
+}
+
+main p{
+	font-size: 18 px	;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+}
+
+.siembra{
+	display: flex;
+	align-items: center;
+}
+
+.deshierbo{
+	display: flex;
+	align-items: center;
+}
+.Controldeplagas{
+	display: flex;
+	align-items: center;
+}
+.Aporque{
+	display: flex;
+	align-items: center;
+}
+.Cosecha{
+	display: flex;
+	align-items: center;
+}
+
+footer{
+	background: black;
+	color: white;
+	bottom: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.facebook{
+	height: 50px;
+	width: auto;
+	border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width:767px){
+
+.nav{
+ width: 100%;
+}
+.menu-icon{
+	display: block;
+	cursor: pointer;
+}
+.nav ul {
+	display: none;
+}
+.nav ul.show{
+	display: block;
+}
+.nav ul{
+	display: none;
+}
+.nav ul .show {
+	display: block;
+}
+.nav li a{
+	text-decoration: none;
+ 	color: white;
+ 	display: block;
+ 	padding: 10px 20px ;
+ 	border-radius: 50px;
+}
+
+.nav ul li{
+	display:block;
+}
+
+.nav ul li a:hover{
+background: #333;
+}
+span img{
+width: 50px;
+height: auto;
+}
