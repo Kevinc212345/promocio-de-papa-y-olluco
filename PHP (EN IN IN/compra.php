@@ -10,5 +10,5 @@ $distrito=$_POST['distrito'];
 $mensaje=$_POST['mensaje'];
 $contenido="nombre: " . $nombre . "\nemail: ". $email . "\npapa: " . $papa "\nolluco: " . $olluco ."\ncantidad" . $cantidad . "\ndireccion: " . $direccion . "\ndistrito: " . $distrito . "\nmensaje: " . $mensaje;
 mail($destino,"contacto", $contenido)
-header("location:../HTML/gracias.html")
+header("location:../gracias.html")
 ?>
