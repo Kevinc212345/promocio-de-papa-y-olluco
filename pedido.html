@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pedidos</title>
+  <link rel="stylesheet" type="text/css" href="CSS/pedidos.css">
+</head>
+<body>
+  <main class="main">
+          <form class="form" action="PHP/compra.php" method="post">  
+             <div class="nombre">
+              <input type="text" name="nombre" placeholder="Introduzca su nombre" required="">
+            </div>
+            <div class="email">
+              <input type="email" name="email" placeholder="Introduzca una dirección de correo electrónico válida" required="">
+            </div>
+            <label>
+              <input type="checkbox"value="papa" name="papa">papa
+              <input type="checkbox"value="olluco" name="olluco"> olluco            
+            </label>
+
+            </div>
+            <div class="cantidad">
+              <input name="cantidad" type="cantidad" rows="4" cols="50" placeholder="Cantidad" maxlength="4">
+            </div>
+            <div class="dirección">
+              <input name="direccion" type="text" placeholder="Ingrese su dirección">
+            </div>
+            <div class="distrito">
+              <div class="">
+                  <p>DRISTRITO</p>
+                <select class="distrito_2" name="distrito">
+                  <option value="VIQUES">VIQUES</option>
+                  <option value="CHUPURO">CHUPURO</option>
+                  <option value="CHONGO">CHONGO</option>
+                  <option value="HUACRAPUQUIO">HUACRAPUQUIO</option>
+                  <option value="BREÑA">BREÑA</option>
+                  <option value="CULLHUAS">CULLHUAS</option>
+                  <option value="COLPA">COLPA</option>
+                  <option value="HUAYUCAHI">HUAYUCAHI</option>
+                </select>
+              </div>
+            </div>
+            <div class="mensaje">
+              <textarea name="mensaje" placeholder="Ingrese su mensaje" rows="4" cols="50"></textarea>
+            </div>
+            <div class="enviar">
+
+            <a href="gracias.html"> <input type="submit" value="enviar" id="boton"></a>
+             
+            </div>
+          </form>
+          </main>
+    </body>
+  </html>
